@@ -7,7 +7,11 @@ import sympy as sy
 def gausslegendre(f, a, b, n=20):
     ans = 0
     # Edit here to implement your code
-
+    x,y = np.polynomial.legendre.leggauss(n);
+    #Change the variable x to map [a,b] into [-1,1]
+    new_x = ((a+b)/2) + ((b-a)*x/2);
+    new_y = (b-a)*y/2;
+    ans = sum(new_y*f(new_x));
     return ans
 
 if __name__ == "__main__":
