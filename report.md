@@ -30,10 +30,21 @@ First, define a function called system to store the ODE system. Then, store the 
 Use a linspace function to define the time (0 to 5 years) and then use odeint to solve the system.
 
 Put your graphs here and explain.
+Graph of y0 and y1 against t with initial condition y=[0.1, 1.0]
+![graph1.png](graph1.png)
+
+Graph of y1 against y0 with initial condition y=[0.1, 1.0]
+![graph2.png](graph2.png)
+
+Graph of y0 and y1 against t with initial condition y=[0.11, 1.00]
+![graph3.png](graph3.png)
+
+Graph of y1 against y0 with initial condition y=[0.11, 1.00]
+![graph4.png](graph4.png)
 
 
 Is the system of ODE sensitive to initial condition? Explain.
-
+No because there is only a very small difference between the graphs for different initial conditions.
 -----------------------------------
 
-<sup>last modified: change your date here</sup>
+<sup>last modified: 17/4/2016</sup>
